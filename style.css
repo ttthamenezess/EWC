@@ -38,7 +38,7 @@ html, body{
 }
 
 
-img{
+.faviconhero > img{
     border-radius: 50%;
     width: 100px;
     
@@ -66,4 +66,14 @@ transition: 1s;
 border-radius: 15px;
 }
 
- 
+.namehero{
+    font-family: var(--font1);
+    font-size: xx-large;
+    margin: 100px;
+   
+    color: var(--cor4);
+    text-align: center;
+    
+}
+
+    
