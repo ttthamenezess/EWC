@@ -63,6 +63,7 @@ a{
 li > a:hover{ 
 background-color: var(--cor1);
 transition: 1s;
-
+border-radius: 15px;
 }
 
+ 
