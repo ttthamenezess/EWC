@@ -20,60 +20,59 @@
     --font1: "M PLUS Rounded 1c", serif;
 }
 
-html, body{
-    font-family: var(--font1);
-    min-height: 100vh;
-    background: linear-gradient( to right, var(--cor0), var(--cor5) ) ;
-    
-}
 
-
-.header-hero{ 
-    color: white;
-    text-align: center;
+    body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(120deg, #3c1f1f, #4e2727);
+    color: #f7e7ce;
+  }
+  
+  header {
+    background: transparent;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 20px;
-}
-
-
-.faviconhero > img{
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    width: 60px;
     border-radius: 50%;
-    width: 100px;
-    
-}
-
-
-.navegacao-hero, ul{
-
-        font-size: large;
-        list-style: none;
-        display: flex;
-        gap: 50px;
-        text-align: center;
-        
-}
-
-a{
-    color: white;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .menu li a {
     text-decoration: none;
-}
-
-li > a:hover{ 
-background-color: var(--cor1);
-transition: 1s;
-border-radius: 15px;
-}
-
-.namehero{
-    font-family: var(--font1);
-    font-size: xx-large;
-    margin: 100px;
-   
-    color: var(--cor4);
+    color:var(--cor4);
+    font-size: 1.1rem;
+    transition: color 0.3s;
+  }
+  
+  .menu li a:hover {
+    color: #d4b19a;
+  }
+  
+  .hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    
-}
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
 
     
