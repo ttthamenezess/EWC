@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+:root {
+    --cor0: #3B0900;
+    --cor5: #3a231e;
+    --cor1: #B93F00;
+    --cor2: #E8A926;
+    --cor3: #047297;
+    --cor4: #FFF9E9;
+    --font1: "M PLUS Rounded 1c", serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+ 
