@@ -21,6 +21,7 @@
 }
 
 body , html{
+
     background-color: var(--cor0) ;
     height: 100vh;
     width: 100vw;
@@ -36,7 +37,6 @@ main{
 nav ul {
     border-radius: 30px;
     list-style-type: none;
-    display: flex ;
     padding:10px;
 }
 
@@ -44,7 +44,6 @@ nav ul li {
     margin: 0 10px; /* Espaçamento entre os itens do menu */
     background-color: var(--cor1);
     border-radius: 30px;
-    display: flex;
 }
 
 nav ul li a {
@@ -52,7 +51,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--cor4); /* Cor do texto do menu */
     padding: 10px;
-    display: flex;
+    
 }
 
 a:hover{
@@ -60,22 +59,19 @@ a:hover{
     transition: 1.5s;
 }
 
-div.header-container , a {
+div.header-container {
     display: flex;
-    align-items: center; /* Alinha os itens verticalmente no centro */
-    justify-content: center; /* Espaço entre a logo e o menu */
+    align-items: flex-end ; /* Alinha os itens verticalmente no centro */
+    justify-content: space-between; /* Espaço entre a logo e o menu */
+    
     padding: 20px;
     
      /* Cor de fundo do header */
 }
 
-.logo , img{
-    display: flex;
-    height: 70px; /* Ajuste a altura da logo conforme necessário */
-    border-radius: 50%;
-    
-    
-}
+
+
+
 
 
 div.titulo-container {
