@@ -44,6 +44,7 @@ nav ul li {
     margin: 0 10px; /* Espaçamento entre os itens do menu */
     background-color: var(--cor1);
     border-radius: 30px;
+    display: flex;
 }
 
 nav ul li a {
@@ -51,7 +52,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--cor4); /* Cor do texto do menu */
     padding: 10px;
-    display: block;
+    display: flex;
 }
 
 a:hover{
@@ -59,7 +60,7 @@ a:hover{
     transition: 1.5s;
 }
 
-.header-container, a {
+div.header-container , a {
     display: flex;
     align-items: center; /* Alinha os itens verticalmente no centro */
     justify-content: center; /* Espaço entre a logo e o menu */
@@ -68,13 +69,16 @@ a:hover{
      /* Cor de fundo do header */
 }
 
- .header-container , img{
+.logo , img{
+    display: flex;
     height: 70px; /* Ajuste a altura da logo conforme necessário */
     border-radius: 50%;
+    
+    
 }
 
 
-.tittlehero{
+div.titulo-container {
     text-align: center;
     margin-top: 200px;
     margin-bottom: 40px;
@@ -85,7 +89,7 @@ a:hover{
     background-color: #E8A926;
 }
 
-.paraghero{
+.parag-container{
     text-transform: uppercase;
     font-size: .9em;
     text-align: center;
