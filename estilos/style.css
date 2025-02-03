@@ -64,6 +64,7 @@ div.header-container {
     align-items: flex-end ; /* Alinha os itens verticalmente no centro */
     justify-content: space-between; /* Espaço entre a logo e o menu */
     
+    
     padding: 20px;
     
      /* Cor de fundo do header */
